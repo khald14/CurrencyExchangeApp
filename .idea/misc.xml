@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3435185185185185" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/drawable-v24/edit_text_border.xml" value="0.1185" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/drawable-v24/line.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/drawable/message_background.xml" value="0.101" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/drawable/recieverchatdrawble.xml" value="0.1185" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/drawable/senderchatdrawable.xml" value="0.1185" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout-v23/activity_specificchat.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_calculator.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_chat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_chats.xml" value="0.1015625" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_currency_convertor.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_email.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_main1.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_maps.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_otp_authentication.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_phone_ver.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_set_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_settings.xml" value="0.115625" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_specificchat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_splash_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/activity_update_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/callfragment.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/card_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/chatfragment.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/chatviewlayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/dropdown_item.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/identity_verification_password.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/recieverchatlayout.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/layout/senderchatlayout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/menu/top_app_bar.xml" value="0.1796875" />
+        <entry key="..\:/Users/97250/Desktop/chatAppInAndroidStudio/app/src/main/res/menu/top_app_bar_w_p_l.xml" value="0.1796875" />
+        <entry key="app/src/main/res/drawable-v24/circle.xml" value="0.181" />
+        <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.2859375" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_chats.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout/activity_currency_convertor.xml" value="0.23550724637681159" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.11035335374915078" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/activity_main1.xml" value="0.2859375" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.2049825032552083" />
+        <entry key="app/src/main/res/layout/activity_otp_authentication.xml" value="0.2859375" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2971163542374321" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2859375" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/activity_set_profile.xml" value="0.39278896165930716" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.10654195149739587" />
+        <entry key="app/src/main/res/layout/activity_specificchat.xml" value="0.245018115942029" />
+        <entry key="app/src/main/res/layout/activity_splashscreen.xml" value="0.19429347826086957" />
+        <entry key="app/src/main/res/layout/activity_update_profile.xml" value="0.28020833333333334" />
+        <entry key="app/src/main/res/layout/callfragment.xml" value="0.24682971014492755" />
+        <entry key="app/src/main/res/layout/card_layout.xml" value="0.23324275362318841" />
+        <entry key="app/src/main/res/layout/chatfragment.xml" value="0.15425531914893617" />
+        <entry key="app/src/main/res/layout/recieverchatlayout.xml" value="0.2859375" />
+        <entry key="app/src/main/res/layout/senderchatlayout.xml" value="0.245018115942029" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.2484375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2609375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

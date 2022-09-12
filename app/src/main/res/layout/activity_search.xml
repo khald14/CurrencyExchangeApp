@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/SearchTopAppBar"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:backgroundTint="@color/Primary_color"
+                app:navigationIcon="?attr/actionModeCloseDrawable"
+                app:title="@string/search" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textColor="#2b5aa2"
+        android:textSize="20sp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/searchGuideline4" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:id="@+id/menu_from"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/from">
+
+        <AutoCompleteTextView
+            android:id="@+id/AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:textColor="#2b5aa2"
+        android:textSize="20sp"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/searchGuideline4" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu_to"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/to">
+
+        <AutoCompleteTextView
+            android:id="@+id/AutoCompleteTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/amount_field"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:hint="@string/amount"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="48dp"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/menu_to"
+        tools:ignore="RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/search_search_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#004A87"
+        android:text="@string/search"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/searchGuideline3"
+        app:layout_constraintEnd_toStartOf="@+id/searchGuideline2"
+        app:layout_constraintStart_toStartOf="@+id/searchGuideline1"
+        app:layout_constraintTop_toBottomOf="@+id/amount_field"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchGuideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchGuideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

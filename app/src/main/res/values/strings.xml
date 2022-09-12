@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title2">quick exchange without commission</string>
+    <string name="title">Welcome To Currency Exchange</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="sign_up_u"><u>Sign Up</u></string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="currency_exchange">Currency Exchange</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="user_name">Username</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="registered">Already Registered?</string>
+    <string name="login_u"><u>Login</u></string>
+    <string name="next_step">Next Step</string>
+    <string name="sign_up">SIGNUP</string>
+
+    <string name="verify_id">Verify ID</string>
+    <string name="verify_txt1">In order to create an account. we need to\n
+        be 100% sure that You are You, As we\'re a\nfinancial service, we have to
+        comply with</string>
+    <string name="verify_txt2">KYC and AML requirements.</string>
+    <string name="verify_txt3">You just need to go through some steps\nwhich
+    will help us to build a secure system\ntogether</string>
+    <string name="verify">Verify</string>
+
+    <string name="id_type">Select the type of the document\nyou wish to scan</string>
+    <string name="id_type_2">We need to determine if the identity\ndocument is authentic and belongs to\nyou</string>
+    <string name="passport">Passport</string>
+    <string name="driver_license">Driver License</string>
+    <string name="identity_card">Identity Card</string>
+
+    <string name="identity_verified">Identity Verified</string>
+
+    <string name="setup_password">Setup Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="privacy_and_policy">I have read the privacy and policy</string>
+    <string name="confirm">Confirm</string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+    <string name="clear">C</string>
+    <string name="percent">%</string>
+    <string name="parentheses">( )</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="plusMinus">+/-</string>
+    <string name="point">.</string>
+    <string name="equals">=</string>
+    <string name="backspace"> </string>
+    <string name="display">Enter in a value</string>
+
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+
+    <string name="search_for_exchanger">Search For Exchanger</string>
+    <string name="currency_rate">Currency Rate</string>
+    <string name="calculator">Calculator</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="currency_convertor">Currency Convertor</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="result">Result</string>
+    <string name="amount">Amount</string>
+    <string name="convert">Convert</string>
+
+    <string name="converted_amount">Converted Amount</string>
+
+    <string name="account">Account</string>
+    <string name="notifications">Notifications</string>
+    <string name="appearance">Appearance</string>
+    <string name="privacy_security">Privacy &amp; Security</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="textview">TextView</string>
+
+
+    <string-array name="currs">
+        <item>AED	UAE Dirham</item>
+        <item>AFN	Afghani</item>
+        <item>ALL	Lek</item>
+        <item>AMD	Armenian Dram</item>
+        <item>ANG	Netherlands Antillian Guilder</item>
+        <item>AOA	Kwanza</item>
+        <item>ARS	Argentine Peso</item>
+        <item>AUD	Australian Dollar</item>
+        <item>AWG	Aruban Guilder</item>
+        <item>AZN	Azerbaijanian Manat</item>
+        <item>BAM	Convertible Marks</item>
+        <item>BBD	Barbados Dollar</item>
+        <item>BDT	Taka</item>
+        <item>BGN	Bulgarian Lev</item>
+        <item>BHD	Bahraini Dinar</item>
+        <item>BIF	Burundi Franc</item>
+        <item>BMD	Bermudian Dollar</item>
+        <item>BND	Brunei Dollar</item>
+        <item>BOB	Boliviano</item>
+        <item>BRL	Brazilian Real</item>
+        <item>BSD	Bahamian Dollar</item>
+        <item>BTN	Ngultrum</item>
+        <item>BWP	Pula</item>
+        <item>BYR	Belarussian Ruble</item>
+        <item>BZD	Belize Dollar</item>
+        <item>CAD	Canadian Dollar</item>
+        <item>CDF	Congolese Franc</item>
+        <item>CHF	Swiss Franc</item>
+        <item>CLF   Chilean Unit of Account</item>
+        <item>CLP	Chilean Peso</item>
+        <item>CNY	Yuan Renminbi</item>
+        <item>COP	Colombian Peso</item>
+        <item>CRC	Costa Rican Colon</item>
+        <item>CUP	Cuban Peso</item>
+        <item>CVE	Cape Verde Escudo</item>
+        <item>CZK	Czech Koruna</item>
+        <item>DJF	Djibouti Franc</item>
+        <item>DKK	Danish Krone</item>
+        <item>DOP	Dominican Peso</item>
+        <item>DZD	Algerian Dinar</item>
+        <item>EGP	Egyptian Pound</item>
+        <item>ETB	Ethiopian Birr</item>
+        <item>EUR	Euro</item>
+        <item>FJD	Fiji Dollar</item>
+        <item>GBP	Pound Sterling</item>
+        <item>GEL	Lari</item>
+        <item>GHS	Cedi</item>
+        <item>GMD	Dalasi</item>
+        <item>GNF	Guinea Franc</item>
+        <item>GTQ	Quetzal</item>
+        <item>GYD	Guyana Dollar</item>
+        <item>HKD	Hong Kong Dollar</item>
+        <item>HNL	Lempira</item>
+        <item>HRK	Croatian Kuna</item>
+        <item>HTG	Gourde</item>
+        <item>HUF	Forint</item>
+        <item>IDR	Rupiah</item>
+        <item>ILS	New Israeli Sheqel</item>
+        <item>INR	Indian Rupee</item>
+        <item>IQD	Iraqi Dinar</item>
+        <item>IRR	Iranian Rial</item>
+        <item>ISK	Iceland Krona</item>
+        <item>JMD	Jamaican Dollar</item>
+        <item>JOD	Jordanian Dinar</item>
+        <item>JPY	Yen</item>
+        <item>KES	Kenyan Shilling</item>
+        <item>KGS	Som</item>
+        <item>KHR	Riel</item>
+        <item>KMF	Comoro Franc</item>
+        <item>KRW	Won</item>
+        <item>KWD	Kuwaiti Dinar</item>
+        <item>KYD	Cayman Islands Dollar</item>
+        <item>KZT	Tenge</item>
+        <item>LAK	Kip</item>
+        <item>LBP	Lebanese Pound</item>
+        <item>LKR	Sri Lanka Rupee</item>
+        <item>LRD	Liberian Dollar</item>
+        <item>LSL	Loti</item>
+        <item>LTL	Lithuanian Litas</item>
+        <item>LVL	Latvian Lats</item>
+        <item>LYD	Libyan Dinar</item>
+        <item>MAD	Moroccan Dirham</item>
+        <item>MDL	Moldovan Leu</item>
+        <item>MGA	Malagasy Ariary</item>
+        <item>MKD	Denar</item>
+        <item>MMK	Kyat</item>
+        <item>MOP	Pataca</item>
+        <item>MRO	Ouguiya</item>
+        <item>MUR	Mauritius Rupee</item>
+        <item>MVR	Rufiyaa</item>
+        <item>MWK	Kwacha</item>
+        <item>MXN	Mexican Peso</item>
+        <item>MYR	Malaysian Ringgit</item>
+        <item>MZN	Metical</item>
+        <item>NAD	Namibia Dollar</item>
+        <item>NGN	Naira</item>
+        <item>NIO	Cordoba Oro</item>
+        <item>NOK	Norwegian Krone</item>
+        <item>NPR	Nepalese Rupee</item>
+        <item>NZD	New Zealand Dollar</item>
+        <item>OMR	Rial Omani</item>
+        <item>PAB	Balboa</item>
+        <item>PEN	Nuevo Sol</item>
+        <item>PGK	Kina</item>
+        <item>PHP	Philippine Peso</item>
+        <item>PKR	Pakistan Rupee</item>
+        <item>PLN	Zloty</item>
+        <item>PYG	Guarani</item>
+        <item>QAR	Qatari Rial</item>
+        <item>RON	New Leu</item>
+        <item>RSD	Serbian Dinar</item>
+        <item>RUB	Russian Ruble</item>
+        <item>RWF	Rwanda Franc</item>
+        <item>SAR	Saudi Riyal</item>
+        <item>SBD	Solomon Islands Dollar</item>
+        <item>SCR	Seychelles Rupee</item>
+        <item>SDG	Sudanese Pound</item>
+        <item>SEK	Swedish Krona</item>
+        <item>SGD	Singapore Dollar</item>
+        <item>SHP	Saint Helena Pound</item>
+        <item>SLL	Leone</item>
+        <item>SOS	Somali Shilling</item>
+        <item>SRD	Surinam Dollar</item>
+        <item>STD	Dobra</item>
+        <item>SVC	El Salvador Colon</item>
+        <item>SZL	Lilangeni</item>
+        <item>THB	Baht</item>
+        <item>TJS	Somoni</item>
+        <item>TND	Tunisian Dinar</item>
+        <item>TOP	Paanga</item>
+        <item>TRY	Turkish Lira</item>
+        <item>TTD	Trinidad and Tobago Dollar</item>
+        <item>TWD	New Taiwan Dollar</item>
+        <item>TZS	Tanzanian Shilling</item>
+        <item>UAH	Hryvnia</item>
+        <item>UGX	Uganda Shilling</item>
+        <item>USD	US Dollar</item>
+        <item>UYU	Peso Uruguayo</item>
+        <item>UZS	Uzbekistan Sum</item>
+        <item>VND	Dong</item>
+        <item>WST	Tala</item>
+        <item>XAF	CFA Franc BEAC</item>
+        <item>XCD	East Caribbean Dollar</item>
+        <item>XOF	CFA Franc BCEAO</item>
+        <item>XPF	CFP Franc</item>
+        <item>YER	Yemeni Rial</item>
+        <item>ZAR	Rand</item>
+        <item>ZMK	Zambian Kwacha</item>
+
+
+
+
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map_key" translatable="false">AIzaSyCquUEGcCasJfBm9BQlO-4cmZB9lChtziM</string>
+    <string name="owners">Khaled &amp; Mahmood</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_your_number">Enter Your Number</string>
+    <string name="currency_exchange_app_otp">Currency-Exchange App Will Send OTP To Your Phone Number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="didn_t_receive_change_your_number">Didn\'t Receive ? Change Your Number</string>
+    <string name="enter_the_otp_here">Enter the OTP here....</string>
+    <string name="enter_the_otp_which_you_received">Enter The OTP Which You Received</string>
+    <string name="save_your_profile">Save Your Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="want_to_update_your_profile">Want To Update Your Profile ?</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="chat">Chat</string>
+    <string name="sender_message_display_here">Sender Message Display Here</string>
+    <string name="_20_09">20:09</string>
+    <string name="name_display_here">Name Display Here</string>
+    <string name="status_displays_here">Status Displays here</string>
+    <string name="distance">distance:</string>
+    <string name="name">name:</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="enter_your_new_name">Enter Your New Name</string>
+    <string name="name_of_user">Name of User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="select_currencies">Select Currencies You Have</string>
+    <string name="chats">Chats</string>
+
+
+</resources>

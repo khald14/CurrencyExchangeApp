@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UpdateProfileActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="@color/Primary_color"
+        android:id="@+id/tool_bar_of_update_profile">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/back_button_of_update_profile"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_centerVertical="true"
+                app:tint="@color/white"
+                android:contentDescription="@string/owners">
+
+            </ImageButton>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_profile"
+                android:textSize="20sp"
+                android:layout_toEndOf="@id/back_button_of_update_profile"
+                android:id="@+id/your_profile_text"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textColor="@color/white">
+            </TextView>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/get_new_username"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/get_new_user_image"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_profile"
+            android:id="@+id/get_new_user_image_in_imageview"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/owners">
+        </ImageView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/get_new_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:hint="@string/enter_your_new_name"
+        android:inputType="textCapWords"
+        android:autofillHints="">
+
+    </EditText>
+
+
+    <android.widget.Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/get_new_username"
+        android:id="@+id/update_profile_button"
+        android:layout_marginTop="30dp"
+        android:background="@color/Primary_color"
+        android:text="@string/update_profile"
+        android:textColor="@color/white">
+
+    </android.widget.Button>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:indeterminateTint="@color/Primary_color"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/update_profile_button"
+        android:id="@+id/progress_bar_of_update_profile">
+
+    </ProgressBar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

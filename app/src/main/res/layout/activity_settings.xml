@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/homeTopAppBar"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:backgroundTint="@color/Primary_color"
+                app:title="@string/settings" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <Button
+        android:id="@+id/account_btn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="70dp"
+        android:text="@string/account"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/settings_guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_guideline2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/notification_btn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="70dp"
+        android:text="@string/notifications"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/settings_guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_guideline2"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="RtlSymmetry,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/appearance_btn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="70dp"
+        android:text="@string/appearance"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/settings_guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_guideline2"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="RtlSymmetry,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/p_s_btn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="70dp"
+        android:text="@string/privacy_security"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/settings_guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_guideline2"
+        app:layout_constraintVertical_bias="0.75"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/about_btn"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/white"
+        android:paddingStart="70dp"
+        android:text="@string/about"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/settings_guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/settings_guideline2"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="RtlSymmetry,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/account_logo"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/account"
+        app:layout_constraintBottom_toBottomOf="@+id/account_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/account_btn"
+        app:layout_constraintTop_toTopOf="@+id/account_btn"
+        app:srcCompat="@drawable/account_logo" />
+
+    <ImageView
+        android:id="@+id/notification_logo"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/notifications"
+        app:layout_constraintBottom_toBottomOf="@+id/notification_btn"
+        app:layout_constraintEnd_toEndOf="@+id/notification_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/notification_btn"
+        app:layout_constraintTop_toTopOf="@+id/notification_btn"
+        app:srcCompat="@drawable/notifications_logo" />
+
+    <ImageView
+        android:id="@+id/appearance_logo"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/appearance"
+        app:layout_constraintBottom_toBottomOf="@+id/appearance_btn"
+        app:layout_constraintEnd_toEndOf="@+id/appearance_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appearance_btn"
+        app:layout_constraintTop_toBottomOf="@+id/notification_btn"
+        app:srcCompat="@drawable/appearance_logo" />
+
+    <ImageView
+        android:id="@+id/p_s_logo"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/privacy_and_policy"
+        app:layout_constraintBottom_toBottomOf="@+id/p_s_btn"
+        app:layout_constraintEnd_toEndOf="@+id/p_s_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p_s_btn"
+        app:layout_constraintTop_toTopOf="@+id/p_s_btn"
+        app:srcCompat="@drawable/p_s_logo" />
+
+    <ImageView
+        android:id="@+id/about_logo"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/about"
+        app:layout_constraintBottom_toBottomOf="@+id/about_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/about_btn"
+        app:layout_constraintTop_toTopOf="@+id/about_btn"
+        app:srcCompat="@drawable/about_logo" />
+
+    <ImageView
+        android:id="@+id/account_arrow_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/account"
+        app:layout_constraintBottom_toBottomOf="@+id/account_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/account_btn"
+        app:srcCompat="@drawable/arrow_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/notification_arrow_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/notifications"
+        app:layout_constraintBottom_toBottomOf="@+id/notification_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/notification_btn"
+        app:srcCompat="@drawable/arrow_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/appearance_arrow_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/appearance"
+        app:layout_constraintBottom_toBottomOf="@+id/appearance_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appearance_btn"
+        app:srcCompat="@drawable/arrow_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/p_s_arrow_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/privacy_and_policy"
+        app:layout_constraintBottom_toBottomOf="@+id/p_s_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/p_s_btn"
+        app:srcCompat="@drawable/arrow_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/about_arrow_logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/about"
+        app:layout_constraintBottom_toBottomOf="@+id/about_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/about_btn"
+        app:srcCompat="@drawable/arrow_logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/settings_guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/settings_guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

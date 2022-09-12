@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_of_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="@color/Primary_color">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Primary_color"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/back_button_of_view_profile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/owners"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="@color/white"
+                tools:ignore="DuplicateSpeakableTextCheck">
+
+            </ImageButton>
+
+
+            <TextView
+                android:id="@+id/your_profile_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/back_button_of_view_profile"
+                android:text="@string/your_profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/view_user_name"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/view_user_image"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="130dp">
+
+
+        <ImageView
+            android:id="@+id/view_user_image_in_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/owners"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_profile"
+            tools:ignore="ImageContrastCheck">
+
+        </ImageView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/logo_of_view_profile"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_alignStart="@id/view_user_name"
+        android:layout_marginStart="-60dp"
+        app:tint="#716e6e"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/owners" />
+
+
+    <EditText
+        android:id="@+id/view_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:hint="@string/enter_your_name"
+        android:inputType="textCapWords"
+        android:autofillHints="">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/move_to_update_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_user_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/want_to_update_your_profile"
+        android:textColor="#303030">
+
+    </TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
